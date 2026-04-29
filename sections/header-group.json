@@ -17,7 +17,33 @@
         "announcement_BxgCk9": {
           "type": "_announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "Envíos a toda Colombia — pagá online sin complicaciones",
+            "link": "",
+            "font": "var(--font-subheading--family)",
+            "font_size": "0.75rem",
+            "weight": "",
+            "letter_spacing": "normal",
+            "case": "none"
+          },
+          "blocks": {}
+        },
+        "announcement_criterio": {
+          "type": "_announcement",
+          "settings": {
+            "text": "Productos con criterio — precios accesibles",
+            "link": "",
+            "font": "var(--font-subheading--family)",
+            "font_size": "0.75rem",
+            "weight": "",
+            "letter_spacing": "normal",
+            "case": "none"
+          },
+          "blocks": {}
+        },
+        "announcement_devolucion": {
+          "type": "_announcement",
+          "settings": {
+            "text": "Devolver es fácil — tu plata está segura",
             "link": "",
             "font": "var(--font-subheading--family)",
             "font_size": "0.75rem",
@@ -29,7 +55,9 @@
         }
       },
       "block_order": [
-        "announcement_BxgCk9"
+        "announcement_BxgCk9",
+        "announcement_criterio",
+        "announcement_devolucion"
       ],
       "name": "t:names.announcement_bar",
       "settings": {
