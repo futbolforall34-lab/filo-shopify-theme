@@ -136,7 +136,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>Discover something new</p>",
+                "text": "<p>Explorar productos</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",

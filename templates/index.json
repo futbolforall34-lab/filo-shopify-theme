@@ -126,7 +126,7 @@
         "section_width": "page-width",
         "section_height": "large",
         "section_height_custom": 70,
-        "color_scheme": "scheme-6",
+        "color_scheme": "scheme-5",
         "toggle_overlay": true,
         "overlay_color": "#0D0D0D66",
         "overlay_style": "gradient",
@@ -558,15 +558,114 @@
         "padding-block-end": 48
       }
     },
-    "divider_mid": {
-      "type": "divider",
-      "blocks": {},
-      "block_order": [],
-      "name": "Divisor",
+    "brand_quote": {
+      "type": "hero",
+      "blocks": {
+        "eyebrow_q": {
+          "type": "text",
+          "name": "Eyebrow",
+          "settings": {
+            "text": "<p>Así elegimos</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "h6",
+            "font": "var(--font-body--family)",
+            "font_size": "0.7rem",
+            "line_height": "normal",
+            "letter_spacing": "wide",
+            "case": "uppercase",
+            "wrap": "pretty",
+            "color": "#C8A96E",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "quote_text": {
+          "type": "text",
+          "name": "Quote principal",
+          "settings": {
+            "text": "<h2>No vendemos todo.<br>Elegimos bien.</h2>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "h2",
+            "font": "var(--font-primary--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground-heading)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "quote_body": {
+          "type": "text",
+          "name": "Subtexto",
+          "settings": {
+            "text": "<p>Cada producto en Filo pasó nuestro filtro de calidad, diseño y funcionalidad.</p>",
+            "width": "fit-content",
+            "max_width": "narrow",
+            "alignment": "center",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "loose",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": ["eyebrow_q", "quote_text", "quote_body"],
+      "name": "Quote central",
       "settings": {
-        "color_scheme": "scheme-1",
-        "padding-block-start": 0,
-        "padding-block-end": 0
+        "media_type_1": "image",
+        "media_type_2": "image",
+        "stack_media_on_mobile": false,
+        "custom_mobile_media": false,
+        "media_type_1_mobile": "image",
+        "media_type_2_mobile": "image",
+        "open_in_new_tab": false,
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "center",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 20,
+        "section_width": "page-width",
+        "section_height": "auto",
+        "color_scheme": "scheme-5",
+        "toggle_overlay": false,
+        "blurred_reflection": false,
+        "reflection_opacity": 75,
+        "padding-block-start": 96,
+        "padding-block-end": 96
       }
     },
     "product_list_seleccion": {
@@ -752,7 +851,7 @@
         "section_width": "page-width",
         "horizontal_alignment": "flex-start",
         "gap": 28,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
         "padding-block-start": 64,
         "padding-block-end": 64
       }
@@ -908,12 +1007,12 @@
       "block_order": ["media", "content"],
       "name": "Filosofía Filo",
       "settings": {
-        "media_width": "50",
+        "media_width": "medium",
         "media_position": "left",
         "extend_media": false,
         "media_height": "60svh",
         "section_width": "full-width",
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-5",
         "padding-block-start": 0,
         "padding-block-end": 0
       }
@@ -923,7 +1022,7 @@
     "hero_filo",
     "marquee_values",
     "collection_categories",
-    "divider_mid",
+    "brand_quote",
     "product_list_seleccion",
     "brand_statement"
   ]
